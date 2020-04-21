@@ -52,7 +52,7 @@ In copy process first directory will created and then files will be copied
 rm -rvf abcd   - remove the directory,background process shown done forcefully
 rm file.txt   - to remove file whether it contains data or not
 ====================================================================================================
-Creating a File with touch Command
+Creating File:
 
 The touch command allows us to update the timestamps on existing files and directories as well as creating new, empty files.
 

@@ -51,3 +51,44 @@ In copy process first directory will created and then files will be copied
 
 rm -rvf abcd   - remove the directory,background process shown done forcefully
 rm file.txt   - to remove file whether it contains data or not
+====================================================================================================
+Creating a File with touch Command
+
+The touch command allows us to update the timestamps on existing files and directories as well as creating new, empty files.
+
+The easiest and most memorable way to create new, empty files is by using the touch command.
+To create a new file simply run the touch command followed by the name of file you want to create:
+
+touch file1.txt
+If the file file1.txt doesn’t exist the command above will create it, otherwise, it will change its timestamps.
+
+To create multiple files at once, specify the file names separated by space:
+
+$ touch file1.txt file2.txt file3.txt
+
+
+
+3 Ways to Create a Text File Quickly Through the Linux Terminal
+
+
+Being a Terminal-savvy person, you may always be looking for ways to ditch the mouse. Creating a text file is one task for which you can depend only on your keyboard on an Ubuntu system. Three commands from the Linux command line are at your service for creating text files. These include:
+
+1. The cat command
+2. The touch command
+3. The standard redirect symbol
+
+1. The cat command
+$ cat > SampleTextFile.txt
+
+Create multiple files at once through the touch command
+$ touch sampletouchfile1.txt sampletouchfile2.txt sampletouchfile2.txt
+
+2. The touch command
+$ touch sampletouchfile.txt
+
+3. The standard redirect symbol
+$ > filename.txt
+Use, nano,vim editor
+$ nano sampletouchfile.txt
+$ vim MyTextFile.txt
+
